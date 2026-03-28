@@ -1,0 +1,1166 @@
+Accessibility Tree Dump for Antigravity (PID 33362)
+================================================================================
+
+--- Window: 'integrate_antigravity — Analysis Report Ko' ---
+- [Role: AXWindow | Title: 'integrate_antigravity — Analysis Report Ko']
+  - [Role: AXGroup | Title: 'integrate_antigravity — Analysis Report Ko']
+    - [Role: AXGroup]
+      - [Role: AXGroup]
+        - [Role: AXGroup]
+          - [Role: AXGroup]
+            - [Role: AXGroup]
+              - [Role: AXWebArea | Title: 'integrate_antigravity — Analysis Report Ko']
+                - [Role: AXGroup]
+                  - [Role: AXGroup]
+                    - [Role: AXGroup]
+                      - [Role: AXGroup]
+                        - [Role: AXGroup]
+                          - [Role: AXGroup]
+                          - [Role: AXGroup]
+                          - [Role: AXGroup]
+                        - [Role: AXGroup]
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXToolbar]
+                            - [Role: AXGroup]
+                              - [Role: AXStaticText] Value: 'integrate_antigravity — Analysis Report Ko'
+                            - [Role: AXGroup]
+                              - [Role: AXLink | Desc: 'Open Agent Manager']
+                                - [Role: AXStaticText] Value: 'Open Agent Manager'
+                              - [Role: AXToolbar | Desc: 'Title actions']
+                                - [Role: AXButton | Desc: 'Customize Layout...']
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXCheckBox | Desc: 'Toggle Primary Side Bar (⌘B)'] Value: '1'
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXCheckBox | Desc: 'Toggle Panel (⌘J)']
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXCheckBox | Desc: 'Toggle Agent (⌥⌘B)'] Value: '1'
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXButton | Desc: 'Quick Open']
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXButton | Desc: 'Open Browser (Preview)']
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: '金'
+                                - [Role: AXButton | Desc: 'Editor-Specific Settings']
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: ''
+                                - [Role: AXPopUpButton | Desc: 'Profile']
+                                  - [Role: AXImage | Desc: '/ACg8ocKTszIn0JNotqKuMS9qyEo4-P_WomoaJNvECq3muNtY37kSAAyBKg=s96-c']
+                                  - [Role: AXGroup | Desc: 'Profile']
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: ''
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                              - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXTabGroup | Desc: 'Active View Switcher']
+                                    - [Role: AXRadioButton | Title: 'Explorer (⇧⌘E)']
+                                      - [Role: AXGroup | Desc: 'Explorer (⇧⌘E)']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Desc: 'Source Control (⌃⇧G) - 10000 pending changes'] Value: '1'
+                                      - [Role: AXGroup | Desc: 'Source Control (⌃⇧G) - 10000 pending changes']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup | Desc: 'Source Control (⌃⇧G) - 10000 pending changes']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: '10K'
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Title: 'Run and Debug (⇧⌘D)']
+                                      - [Role: AXGroup | Desc: 'Run and Debug (⇧⌘D)']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Title: 'Remote Explorer']
+                                      - [Role: AXGroup | Desc: 'Remote Explorer']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Title: 'Extensions (⇧⌘X)']
+                                      - [Role: AXGroup | Desc: 'Extensions (⇧⌘X)']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Title: 'Claude Code']
+                                      - [Role: AXGroup | Desc: 'Claude Code']
+                                      - [Role: AXGroup]
+                                    - [Role: AXRadioButton | Desc: 'Antigravity Cockpit']
+                                      - [Role: AXGroup | Desc: 'Antigravity Cockpit']
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: ''
+                                      - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXHeading | Title: 'Source Control'] Value: '2'
+                                    - [Role: AXStaticText] Value: 'Source Control'
+                                  - [Role: AXToolbar | Desc: 'Source Control actions']
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXPopUpButton | Desc: 'Views and More Actions...']
+                                  - [Role: AXToolbar]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXButton | Desc: 'Changes Section']
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: ''
+                                            - [Role: AXHeading | Title: 'Changes'] Value: '3'
+                                              - [Role: AXStaticText] Value: 'Changes'
+                                          - [Role: AXGroup]
+                                            - [Role: AXOutline | Desc: 'Source Control Management']
+                                              - [Role: AXGroup]
+                                                - [Role: AXRow | Desc: 'multipartPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/multipartPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'multipartPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'multipartPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/multipartPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'multipartPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'ndJsonPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/ndJsonPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'ndJsonPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'ndJsonPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/ndJsonPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'ndJsonPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'ndJsonPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/ndJsonPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'ndJsonPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'proxyPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/proxyPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'proxyPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'proxyPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/proxyPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'proxyPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'proxyPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/proxyPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'proxyPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'redirectPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/redirectPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'redirectPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'redirectPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/redirectPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'redirectPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'redirectPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/redirectPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'redirectPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'retryPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/retryPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'retryPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'retryPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/retryPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'retryPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'retryPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/retryPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'retryPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'setClientRequestIdPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/setClientRequestIdPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'setClientRequestIdPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'setClientRequestIdPolicy.js, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/setClientRequestIdPolicy.js • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'setClientRequestIdPolicy.js'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'setClientRequestIdPolicy.js.map, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/setClientRequestIdPolicy.js.map • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'setClientRequestIdPolicy.js.map'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                                - [Role: AXRow | Desc: 'systemErrorRetryPolicy.d.ts, Untracked, main/node_modules/@azure/core-rest-pipeline/dist/browser/policies']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                    - [Role: AXGroup | Desc: '~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main/node_modules/@azure/core-rest-pipeline/dist/browser/policies/systemErrorRetryPolicy.d.ts • Untracked']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: '  '
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'systemErrorRetryPolicy.d.ts'
+                                                        - [Role: AXStaticText] Value: 'main/node_modules/@azure/core-rest-pipeline/dist/browser/policies'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'U'
+                                              - [Role: AXGroup]
+                                              - [Role: AXGroup]
+                                              - [Role: AXGroup]
+                                                - [Role: AXGroup]
+                                                - [Role: AXRow | Desc: 'Changes']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: ''
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: 'Changes'
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: '10000'
+                                                - [Role: AXRow | Desc: 'main Git']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: ''
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: ''
+                                                    - [Role: AXGroup | Desc: 'Git: ~/LOCAL/01-01_Projects/GEMINI_CLI/playground/integrate_antigravity/main']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'main'
+                                                    - [Role: AXToolbar]
+                                                      - [Role: AXButton | Desc: 'main*, Checkout Branch/Tag...']
+                                                        - [Role: AXStaticText] Value: ''
+                                                        - [Role: AXStaticText] Value: 'main*'
+                                                      - [Role: AXButton | Desc: 'Publish to GitHub']
+                                                      - [Role: AXButton | Desc: 'Commit']
+                                                        - [Role: AXGroup]
+                                                          - [Role: AXStaticText] Value: ''
+                                                      - [Role: AXButton | Desc: 'Refresh']
+                                                        - [Role: AXGroup]
+                                                          - [Role: AXStaticText] Value: ''
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXGroup]
+                                                          - [Role: AXPopUpButton | Desc: 'More Actions...']
+                                                            - [Role: AXGroup]
+                                            - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXButton | Desc: 'Graph Section']
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: ''
+                                            - [Role: AXHeading | Title: 'Graph'] Value: '3'
+                                              - [Role: AXStaticText] Value: 'Graph'
+                                            - [Role: AXGroup]
+                                              - [Role: AXToolbar | Desc: 'Graph actions']
+                                                - [Role: AXButton | Desc: 'antigravity-claude-proxy']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: 'antigravity-claude-proxy'
+                                                - [Role: AXButton | Desc: 'main, origin/main']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: 'Auto'
+                                                - [Role: AXButton | Desc: 'Go to Current History Item']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                - [Role: AXButton | Desc: 'Fetch From All Remotes']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                - [Role: AXButton | Desc: 'Pull']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                - [Role: AXButton | Desc: 'Push']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                - [Role: AXButton | Desc: 'Refresh']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXStaticText] Value: ''
+                                                - [Role: AXGroup]
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXPopUpButton | Desc: 'More Actions...']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: ''
+                                          - [Role: AXGroup]
+                                            - [Role: AXOutline | Desc: 'Source Control History']
+                                              - [Role: AXGroup]
+                                                - [Role: AXRow | Desc: 'chore: bump antigravity version to 1.20.6, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'chore: bump antigravity version to 1.20.6'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: ''
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: 'main'
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: ''
+                                                - [Role: AXRow | Desc: 'fix: drop untrusted thinking signatures for Claude resume turns (#298) Co-authored-by: Codex <codex@local>, its-crab']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: drop untrusted thinking signatures for Claude resume turns (#298)'
+                                                        - [Role: AXStaticText] Value: 'its-crab'
+                                                - [Role: AXRow | Desc: 'docs: simplify ToS warning account recommendation Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'docs: simplify ToS warning account recommendation'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'update antigravity version to 1.20.3, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'update antigravity version to 1.20.3'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'chore: update claude-sonnet-4-5 model references to claude-sonnet-4-6 (#305) Update all model name references from claude-sonnet-4-5 to claude-sonnet-4-6 across configuration, documentation, tests, and UI code. Files updated: - CLAUDE.md - README.md - docs/models.md - docs/openclaw.md - public/js/data-store.js - src/constants.js - tests/test-streaming-whitespace.cjs, Chovy']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'chore: update claude-sonnet-4-5 model references to claude-sonnet-4-6 (#305)'
+                                                        - [Role: AXStaticText] Value: 'Chovy'
+                                                - [Role: AXRow | Desc: 'fix: only warn on max_tokens adjustment for explicit budget When the default thinking_budget (32000) triggers the max_tokens adjustment, log at debug level since it's expected behavior. Only warn when the user explicitly provided a budget_tokens that conflicts with max_tokens. Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: only warn on max_tokens adjustment for explicit budget'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'fix: default thinking_budget for adaptive thinking mode Cloud Code API requires thinking_budget to produce thinking blocks. Without it, include_thoughts alone is silently ignored and Claude falls back to <thinking> XML tags in text output. Claude Code now sends thinking: {type: "adaptive"} (no budget_tokens) for Opus 4.6, so we default to 32000 when no budget is provided. Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: default thinking_budget for adaptive thinking mode'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'fix: clamp Gemini thinking budget to model-specific max (#289) Gemini 2.5 Flash rejects thinking_budget > 24576. Clamp the budget to model-specific limits before sending to the API. Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: clamp Gemini thinking budget to model-specific max (#289)'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'docs: clean up README after CLI upgrade PR - Move ToS warning below banner as blockquote instead of top-level heading - Reorganize Quick Start with clean command table instead of inline comments - Keep acc as primary command with antigravity-claude-proxy as alternative Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'docs: clean up README after CLI upgrade PR'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'Enhanced CLI with Background Process Management (#282) * feat: add background process management and shorthand command alias - Introduced background process management for the proxy server, allowing it to run as a detached process. - Added new shorthand command `acc` for easier access to proxy commands. - Updated README with new commands for starting, stopping, restarting, and checking the status of the server. - Enhanced CLI with PID file management for better control over the server lifecycle. * feat(cli): add foreground logging option for server start - Introduced a `--log` flag to run the server in foreground mode with visible logs. - Updated console messages to differentiate between foreground and background launches. - Enhanced error handling and exit logging for the foreground process. - Updated usage documentation to include the new `--log` option. * fix(cli): adjust console output formatting for better alignment - Updated console messages in the CLI to improve visual alignment. - Ensured consistent spacing in the server start and help display messages., Hackoak']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'Enhanced CLI with Background Process Management (#282)'
+                                                        - [Role: AXStaticText] Value: 'Hackoak'
+                                                - [Role: AXRow | Desc: 'fix: prevent accounts.json corruption + detect ToS-banned accounts (#283) Two independent fixes for production reliability: 1. Storage Protection (storage.js): - Add write lock to serialize concurrent saveToDisk() calls - Validate JSON with JSON.parse() before writing to catch serialization bugs - Atomic write via temp file + rename to prevent partial writes on crash - Fixes: accounts.json corruption when multiple async callers (rate-limit updates, quota refreshes, account additions) write simultaneously 2. ToS Ban Detection (rate-limit-state.js, handlers, model-api.js, server.js): - Detect 403 'Gemini has been disabled...violation of Terms of Service' - Mark account as banned immediately (no point retrying banned accounts) - Catch bans in streaming-handler, message-handler, and model-api - Surface distinct BANNED status in /account-limits and WebUI: * Dark-red 'BANNED' label (vs red 'INVALID' for fixable auth issues) * Ban reason shown as subtitle text * APPEAL mailto button replaces useless FIX button - Prevents wasting requests on permanently banned accounts Amp-Thread-ID: https://ampcode.com/threads/T-019c5104-6aef-74cd-a985-ca8d618fa543 Co-authored-by: Amp <amp@ampcode.com>, Alex Yehorov']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: prevent accounts.json corruption + detect ToS-banned accounts (#283)'
+                                                        - [Role: AXStaticText] Value: 'Alex Yehorov'
+                                                - [Role: AXRow | Desc: 'Update antigravity version to 1.18.4, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'Update antigravity version to 1.18.4'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'chore: bump version to 2.7.7 Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'chore: bump version to 2.7.7'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'feat: Update Gemini model identifiers to version 3.1 across documentation and codebase, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'feat: Update Gemini model identifiers to version 3.1 across documentation and codebase'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'fix: update fallback Antigravity version to 1.18.3, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'fix: update fallback Antigravity version to 1.18.3'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'Revert "feat: Implement and integrate a `wreq-js` based TLS client for all network requests." This reverts commit cd5c02e53f75c6ebf44aa4633e38033f582cb2a2., Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'Revert "feat: Implement and integrate a `wreq-js` based TLS client for all network requests."'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'feat: Add verifyUrl to account limits response metadata, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'feat: Add verifyUrl to account limits response metadata'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                                - [Role: AXRow | Desc: 'chore: bump version to 2.7.6, Badri Narayanan S']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                    - [Role: AXImage]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'chore: bump version to 2.7.6'
+                                                        - [Role: AXStaticText] Value: 'Badri Narayanan S'
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXGroup]
+                                            - [Role: AXGroup]
+                                              - [Role: AXGroup]
+                                              - [Role: AXGroup]
+                                                - [Role: AXGroup]
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXTabGroup]
+                                                        - [Role: AXRadioButton | Desc: 'Analysis Report Ko'] Value: '1'
+                                                          - [Role: AXGroup | Desc: 'Analysis Report Ko']
+                                                            - [Role: AXGroup]
+                                                            - [Role: AXGroup]
+                                                          - [Role: AXToolbar | Desc: 'Tab actions']
+                                                            - [Role: AXButton | Desc: 'Close (⌘W)']
+                                                          - [Role: AXGroup]
+                                                        - [Role: AXRadioButton | Desc: 'Analysis Report En']
+                                                          - [Role: AXGroup | Desc: 'Analysis Report En']
+                                                            - [Role: AXGroup]
+                                                            - [Role: AXGroup]
+                                                          - [Role: AXToolbar | Desc: 'Tab actions']
+                                                            - [Role: AXButton | Desc: 'Close (⌘W)']
+                                                      - [Role: AXToolbar | Desc: 'Editor actions']
+                                                        - [Role: AXButton | Desc: 'Claude Code: Open']
+                                                        - [Role: AXButton | Desc: 'Nogic: Open Visualizer']
+                                                        - [Role: AXButton | Desc: 'Split Editor Right (⌘\) [⌥] Split Editor Down']
+                                                          - [Role: AXGroup]
+                                                            - [Role: AXStaticText] Value: ''
+                                                        - [Role: AXButton | Desc: 'Go Back (⌃-)']
+                                                          - [Role: AXGroup]
+                                                            - [Role: AXStaticText] Value: ''
+                                                        - [Role: AXButton | Desc: 'Go Forward (⌃⇧-)']
+                                                          - [Role: AXGroup]
+                                                            - [Role: AXStaticText] Value: ''
+                                                        - [Role: AXGroup]
+                                                          - [Role: AXGroup]
+                                                            - [Role: AXPopUpButton | Desc: 'More Actions...']
+                                                  - [Role: AXGroup]
+                                                    - [Role: AXGroup]
+                                                      - [Role: AXStaticText] Value: 'Analysis Report Ko'
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXStaticText] Value: 'less than a minute ago'
+                                                      - [Role: AXPopUpButton | Title: 'Review']
+                                                      - [Role: AXGroup]
+                                                        - [Role: AXGroup]
+                                                          - [Role: AXGroup]
+                                                            - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXButton | Desc: 'Agent Section']
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: ''
+                                            - [Role: AXHeading | Title: 'Agent'] Value: '3'
+                                              - [Role: AXStaticText] Value: 'Agent'
+                                        - [Role: AXGroup]
+                                          - [Role: AXButton | Desc: 'Terminal Section']
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: ''
+                                            - [Role: AXHeading | Title: 'Terminal'] Value: '3'
+                                              - [Role: AXStaticText] Value: 'Terminal'
+                                        - [Role: AXGroup]
+                                          - [Role: AXButton | Desc: 'Roo Code Section']
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: ''
+                                            - [Role: AXHeading | Title: 'Roo Code'] Value: '3'
+                                              - [Role: AXStaticText] Value: 'Roo Code'
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXGroup | Desc: 'remote']
+                                - [Role: AXButton | Desc: 'remote']
+                              - [Role: AXGroup | Desc: 'antigravity-claude-proxy (Git)']
+                                - [Role: AXButton | Desc: 'antigravity-claude-proxy (Git)']
+                                  - [Role: AXStaticText] Value: ''
+                                  - [Role: AXStaticText] Value: ' antigravity-claude-proxy'
+                              - [Role: AXGroup | Desc: 'antigravity-claude-proxy (Git) - main, Checkout Branch/Tag...']
+                                - [Role: AXButton | Desc: 'antigravity-claude-proxy (Git) - main, Checkout Branch/Tag...']
+                                  - [Role: AXStaticText] Value: ''
+                                  - [Role: AXStaticText] Value: ' main'
+                              - [Role: AXGroup | Desc: 'antigravity-claude-proxy (Git) - Synchronize Changes']
+                                - [Role: AXButton | Desc: 'antigravity-claude-proxy (Git) - Synchronize Changes']
+                              - [Role: AXGroup | Desc: 'No Problems']
+                                - [Role: AXButton | Desc: 'No Problems']
+                                  - [Role: AXStaticText] Value: ''
+                                  - [Role: AXStaticText] Value: ' 0 '
+                                  - [Role: AXStaticText] Value: ''
+                                  - [Role: AXStaticText] Value: ' 0'
+                              - [Role: AXGroup | Desc: 'Notifications']
+                                - [Role: AXButton | Desc: 'Notifications']
+                              - [Role: AXGroup | Desc: 'Antigravity - Settings, Autocomplete Speed: Fast']
+                                - [Role: AXButton | Desc: 'Antigravity - Settings, Autocomplete Speed: Fast']
+                              - [Role: AXGroup | Desc: '🟢 Group 1: 100% | 🟢 Group 2: 100%, **🚀 Antigravity 할당량 모니터** --- | | | | | :--- | :--- | :--- | | **Group 1** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (High)** | `■■■■■■■■■■` | 100.00% → 1h 59m (16:21) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (Low)** | `■■■■■■■■■■` | 100.00% → 1h 59m (16:21) | | | | | | **Group 2** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Sonnet 4.6 (Thinking)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Opus 4.6 (Thinking)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **GPT-OSS 120B (Medium)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | --- *클릭하여 할당량 모니터 열기*']
+                                - [Role: AXButton | Desc: '🟢 Group 1: 100% | 🟢 Group 2: 100%, **🚀 Antigravity 할당량 모니터** --- | | | | | :--- | :--- | :--- | | **Group 1** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (High)** | `■■■■■■■■■■` | 100.00% → 1h 59m (16:21) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (Low)** | `■■■■■■■■■■` | 100.00% → 1h 59m (16:21) | | | | | | **Group 2** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Sonnet 4.6 (Thinking)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Opus 4.6 (Thinking)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **GPT-OSS 120B (Medium)** | `■■■■■■■■■■` | 100.00% → 5h 0m (19:22) | --- *클릭하여 할당량 모니터 열기*']
+                              - [Role: AXGroup | Desc: 'Screen Reader Optimized']
+                                - [Role: AXButton | Desc: 'Screen Reader Optimized']
+                    - [Role: AXGroup]
+                      - [Role: AXGroup]
+                        - [Role: AXStaticText] Value: 'Analyzing Project Codebase'
+                        - [Role: AXLink]
+                          - [Role: AXGroup]
+                        - [Role: AXLink]
+                          - [Role: AXGroup]
+                        - [Role: AXPopUpButton]
+                          - [Role: AXLink]
+                            - [Role: AXGroup]
+                        - [Role: AXLink]
+                          - [Role: AXGroup]
+                        - [Role: AXGroup]
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: '코드 예시까지 함께 분석해서 알려줘'
+                                  - [Role: AXButton | Title: 'undo']
+                                - [Role: AXGroup]
+                                  - [Role: AXButton | Title: 'Worked for 1m']
+                                  - [Role: AXGroup]
+                                    - [Role: AXButton | Title: 'Thought Process']
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now prioritizing the most useful tools for this task. The focus is on selecting the correct tool for the job to improve efficiency. I am thinking through the best ways to integrate different tools as required. My current approach involves a step-by-step assessment of which tool is most appropriate given a specific action is needed.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Refining Tool Selection'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now refining my tool selection strategy based on specific constraints and best practices. I will not use
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'cat'
+                                          - [Role: AXStaticText] Value: ' to create or append to files within bash commands. I will always favor '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'grep_search'
+                                          - [Role: AXStaticText] Value: ' over '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'grep'
+                                          - [Role: AXStaticText] Value: ' inside bash, unless it is impossible. I will not use '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'ls'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'cat'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'grep'
+                                          - [Role: AXStaticText] Value: ' and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'sed'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               for specific tasks. I'm also ensuring I list all related tools before making calls, only executing a set if the others are less appropriate. The recent user request for code examples is investigatory, so I'll incorporate code analysis. I have reviewed
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'vscode_monitor.py'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'sniffer.js'
+                                          - [Role: AXStaticText] Value: ' and partial proxy files.'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Generating Bilingual Documentation'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'I've decided to create two analysis reports, one in Korean ('
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'analysis_report_ko.md'
+                                          - [Role: AXStaticText] Value: ') and one in English ('
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'analysis_report_en.md'
+                                          - [Role: AXStaticText] Value: '), in compliance with the bilingual documentation requirement. The artifacts' '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'ArtifactType'
+                                          - [Role: AXStaticText] Value: ' will be 'other,' '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'RequestFeedback'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               is false, and the summary is a detailed analysis of the current Antigravity Integration project with code examples. I'll write the requested code snippets in Korean.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Executing Concurrent Write Operations'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'I realized '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'write_to_file'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               only accepts one file per execution, so I'm updating the execution strategy. I will concurrently write the Korean and English artifacts using two separate calls to
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'write_to_file'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              , optimizing for the dual-language document creation. My focus now is on organizing the content and file structure for those two writes.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Analyzing Text Extraction Strategy'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now analyzing a recursive function that extracts text values from UI elements within a tree structure. I'm focusing on identifying text areas from specific roles, such as 'AXTextArea' and 'AXStaticText'. This logic will help me sniff context from the VS Code terminal, editor, and chat panels. My next step is to examine how this might interface with browser real-time DOM scraping using CDP.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Implementing CDP Client Management'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now implementing the CDP client management. I've focused on establishing communication with the V8/CDP Inspector via the remote debugging port (typically 9222). My logic currently attaches to all active webviews (targets) in parallel, enabling the
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'Runtime'
+                                          - [Role: AXStaticText] Value: ' object for each. This involves the use of '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'CDP'
+                                          - [Role: AXStaticText] Value: ' and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'Runtime.enable()'
+                                          - [Role: AXStaticText] Value: '. I am keeping track of the clients.'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Refining Data Extraction'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'I am now refining my data extraction strategy within the CDP context. I'll inject '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'document.body.innerText'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               into the target's console to parse the final DOM text rendered by the client. I'll save the information as
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'dom_extract.txt'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               locally if it passes a regex/string condition. The targets will exclude specific external sites like
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'google.com'
+                                          - [Role: AXStaticText] Value: ' and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'youtube.com'
+                                          - [Role: AXStaticText] Value: '. I'll also configure an endpoint for the Anthropic Claude API.'
+                                    - [Role: AXButton | Title: 'Thought for 16s']
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now prioritizing the most useful tools available to complete the next steps. I am assessing which tools will provide the most efficient path forward. I'm focusing on their respective strengths to solve the particular requirements.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Refining Tool Selection'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'I'm now zeroing in on the correct tools for the job, and focusing on efficiency. I'm avoiding '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'cat'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'grep'
+                                          - [Role: AXStaticText] Value: ' within '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'bash'
+                                          - [Role: AXStaticText] Value: ', and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'ls'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'cat'
+                                          - [Role: AXStaticText] Value: ', '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'grep'
+                                          - [Role: AXStaticText] Value: ', and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'sed'
+                                          - [Role: AXStaticText]
+                                            Value:
+                                               for their respective generic functions. I will explicitly list potential tools before execution, choosing the most precise ones first, and use the artifact directory.
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Clarifying Artifact Paths'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now zeroing in on the correct tools for artifact creation. It seems the documentation is clear, and I can avoid potential confusion. Specifically,
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'TargetFile'
+                                          - [Role: AXStaticText] Value: ' should be an absolute path within the artifact directory when creating new artifacts with the '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'write_to_file'
+                                          - [Role: AXStaticText] Value: ' function and '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'IsArtifact: true'
+                                          - [Role: AXStaticText] Value: '. I will be very explicit now and use absolute paths, like '
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: '/Users/uhd/.gemini/antigravity/brain/fc00de3f-35f8-44b7-b992-78da8928b8a9/artifacts/analysis_report'
+                                          - [Role: AXStaticText] Value: ', to avoid any ambiguity regarding the artifact's location.'
+                                    - [Role: AXGroup]
+                                      - [Role: AXButton | Title: 'Edited 1 file']
+                                        - [Role: AXStaticText] Value: 'Edited'
+                                        - [Role: AXStaticText] Value: '1 file'
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'Created'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Analysis Report Ko'
+                                        - [Role: AXStaticText] Value: '+'
+                                        - [Role: AXStaticText] Value: '107'
+                                        - [Role: AXStaticText] Value: '-'
+                                        - [Role: AXStaticText] Value: '0'
+                                        - [Role: AXButton | Title: 'difference']
+                                    - [Role: AXButton | Title: 'Thought for 12s']
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              I'm now prioritizing the most useful tools available to complete the next steps. I am assessing which tools will provide the most efficient path forward. I'm focusing on their respective strengths to solve the particular requirements.
+                                    - [Role: AXGroup]
+                                      - [Role: AXButton | Title: 'Edited 1 file']
+                                        - [Role: AXStaticText] Value: 'Edited'
+                                        - [Role: AXStaticText] Value: '1 file'
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'Created'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Analysis Report En'
+                                        - [Role: AXStaticText] Value: '+'
+                                        - [Role: AXStaticText] Value: '107'
+                                        - [Role: AXStaticText] Value: '-'
+                                        - [Role: AXStaticText] Value: '0'
+                                        - [Role: AXButton | Title: 'difference']
+                                        - [Role: AXButton | Title: 'Thought for 1s']
+                                        - [Role: AXGroup]
+                                          - [Role: AXGroup]
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText]
+                                                Value:
+                                                  I'm now prioritizing the most useful tools for this task. The focus is on selecting the correct tool for the job to improve efficiency. I am thinking through the best ways to integrate different tools as required. My current approach involves a step-by-step assessment of which tool is most appropriate given a specific action is needed.
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText] Value: '요청하신 대로 소스 코드를 바탕으로 한 핵심 원리에 대한 상세 분석 리포트를 작성했습니다.'
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText] Value: '규칙에 따라 영어와 한국어 두 가지 버전으로 아티팩트를 생성해 두었으니, 다음 링크를 클릭하여 전체 분석 리포트를 확인해 보실 수 있습니다:'
+                                - [Role: AXList]
+                                  - [Role: AXGroup]
+                                    - [Role: AXListMarker] Value: '• '
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: 'Korean Report:'
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'analysis_report_ko.md'
+                                  - [Role: AXGroup]
+                                    - [Role: AXListMarker] Value: '• '
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: 'English Report:'
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'analysis_report_en.md'
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText] Value: '리포트의 핵심 내용을 요약하자면 다음과 같습니다:'
+                                - [Role: AXList]
+                                  - [Role: AXGroup]
+                                    - [Role: AXListMarker] Value: '1. '
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'vscode_monitor.py'
+                                      - [Role: AXStaticText] Value: ' (macOS Accessibility API 스크래핑)'
+                                    - [Role: AXList]
+                                      - [Role: AXGroup]
+                                        - [Role: AXListMarker] Value: '• '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'kAXManualAccessibility'
+                                        - [Role: AXStaticText] Value: ' 속성을 강제로 주입하여 원래는 숨겨져 있는 VS Code(Electron) 내부의 DOM 요소들을 OS 단의 접근성 트리에 강제 노출시키고, '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'AXTextArea'
+                                        - [Role: AXStaticText] Value: '나 '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'AXStaticText'
+                                        - [Role: AXStaticText] Value: ' 요소를 순회하며 텍스트 렌더링 값들을 추출합니다.'
+                                  - [Role: AXGroup]
+                                    - [Role: AXListMarker] Value: '2. '
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'cdp-sniffer/sniffer.js'
+                                      - [Role: AXStaticText] Value: ' (크롬 디버깅 프로토콜 스니퍼)'
+                                    - [Role: AXList]
+                                      - [Role: AXGroup]
+                                        - [Role: AXListMarker] Value: '• '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'CDP.List()'
+                                        - [Role: AXStaticText] Value: '를 통해 9222 포트로 돌아가는 모든 Webview 타겟을 리스트업하고, '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Runtime.evaluate'
+                                        - [Role: AXStaticText] Value: '를 통해 해당 DOM 환경 안에서 JavaScript 구문('
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'document.body.innerText'
+                                        - [Role: AXStaticText] Value: ')을 주입/실행하여 "테스트야" 거나 긴 텍스트 문단 등을 감지하면 로컬에 갈취하는 기법입니다.'
+                                  - [Role: AXGroup]
+                                    - [Role: AXListMarker] Value: '3. '
+                                    - [Role: AXGroup]
+                                      - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'antigravity-claude-proxy'
+                                      - [Role: AXStaticText] Value: ' (API 프록시)'
+                                    - [Role: AXList]
+                                      - [Role: AXGroup]
+                                        - [Role: AXListMarker] Value: '• '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'ANTHROPIC_BASE_URL'
+                                        - [Role: AXStaticText] Value: ' 환경변수를 덮어씌워 서드파티 AI CLI 도구들(예: Claude Code)의 요청을 '
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'localhost:8080'
+                                        - [Role: AXStaticText]
+                                          Value:
+                                             포트로 돌린 다음, 내부 Express 서버에서 이 페이로드를 가로채어 Google Cloud Code 포맷으로 변환해 Antigravity 서버로 쏴주는 중간자 하이재킹 구조를 가지고 있습니다.
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText] Value: '추가적인 실험 진행이나 특정 포인트를 응용하고 싶으시다면 언제든 말씀해 주세요.'
+                                - [Role: AXStaticText] Value: 'Files Modified'
+                                - [Role: AXStaticText] Value: '2'
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: 'Analysis Report Ko'
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: 'Analysis Report En'
+                                  - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: '현재 프로젝트에 어울리는 이미지를 생성해'
+                                  - [Role: AXButton | Title: 'undo']
+                                - [Role: AXGroup]
+                                  - [Role: AXButton | Title: 'Worked for 28s']
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                      - [Role: AXButton | Title: 'Explored 1 image']
+                                        - [Role: AXStaticText] Value: 'Explored'
+                                        - [Role: AXStaticText] Value: '1 image'
+                                      - [Role: AXGroup]
+                                        - [Role: AXButton | Title: 'Thought for 4s']
+                                        - [Role: AXGroup]
+                                          - [Role: AXGroup]
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText]
+                                                Value:
+                                                  I'm now prioritizing the most useful tools available to complete the next steps. I am assessing which tools will provide the most efficient path forward. I'm focusing on their respective strengths to solve the particular requirements.
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: 'Refining Tool Choices'
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText]
+                                                Value:
+                                                  I'm now refining my approach to tool selection, paying close attention to avoiding common pitfalls like unnecessary use of
+                                              - [Role: AXGroup]
+                                                - [Role: AXStaticText] Value: 'cat'
+                                              - [Role: AXStaticText] Value: ' within bash commands. I'm prioritizing '
+                                              - [Role: AXGroup]
+                                                - [Role: AXStaticText] Value: 'grep_search'
+                                              - [Role: AXStaticText]
+                                                Value:
+                                                   and other specialized tools over generic alternatives, guided by the rule of only executing a set of tools if those tools are the most specific and appropriate for a task, and ensuring all tools in the list are either more generic or not applicable to the problem at hand. I need to generate an image suitable for the project, which is integrate_antigravity.
+                                          - [Role: AXGroup]
+                                        - [Role: AXStaticText] Value: 'New'
+                                        - [Role: AXStaticText] Value: 'Generate with Gemini 3.1 Flash Image 🍌'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText] Value: 'Prompt'
+                                        - [Role: AXGroup]
+                                          - [Role: AXStaticText]
+                                            Value:
+                                              A futuristic cyberpunk visualization of data extraction and network proxies, glowing blue and purple data streams being intercepted from a glowing code editor interface, ethereal glowing nodes connecting a local client to an artificial intelligence cloud in the background, dark theme, high tech, digital espionage, complex network architecture, neon glowing code flowing through transparent wires.
+                                        - [Role: AXGroup]
+                                          - [Role: AXImage | Desc: 'Generated image preview']
+                                          - [Role: AXGroup]
+                                            - [Role: AXStaticText] Value: 'Open'
+                                            - [Role: AXStaticText] Value: 'zoom_out_map'
+                                        - [Role: AXButton | Title: 'Thought for 1s']
+                                        - [Role: AXGroup]
+                                          - [Role: AXGroup]
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText] Value: 'Prioritizing Tool Usage'
+                                            - [Role: AXGroup]
+                                              - [Role: AXStaticText]
+                                                Value:
+                                                  I'm now prioritizing the most useful tools for this task. The focus is on selecting the correct tool for the job to improve efficiency. I am thinking through the best ways to integrate different tools as required. My current approach involves a step-by-step assessment of which tool is most appropriate given a specific action is needed.
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText] Value: '현재 진행 중인 '
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: '데이터 스크래핑(Data Scraping), 로컬 프록시(Local Proxy), 그리고 IDE 해킹/통합 기법'
+                                  - [Role: AXStaticText] Value: '이라는 '
+                                  - [Role: AXGroup]
+                                    - [Role: AXStaticText] Value: 'integrate_antigravity'
+                                  - [Role: AXStaticText] Value: ' 프로젝트의 무거운 사이버 보안/해킹 테마를 반영하여 이미지를 생성해 드렸습니다.'
+                                - [Role: AXGroup]
+                                  - [Role: AXStaticText]
+                                    Value:
+                                      코드 에디터에서 추출된 데이터 스트림이 암호화된 프록시 노드를 거쳐 거대한 AI 클라우드 인프라와 연결되는 '네트워크 하이재킹 및 브릿지 아키텍처'의 개념을 사이버펑크 톤으로 시각화했습니다. 확인해 보시기 바랍니다!
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                    - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                              - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                - [Role: AXGroup]
+                                  - [Role: AXGroup]
+                                    - [Role: AXTextArea | Desc: 'Message input']
+                                    - [Role: AXGroup]
+                                      - [Role: AXStaticText] Value: 'Ask anything, @ to mention, / for workflows'
+                                - [Role: AXPopUpButton | Title: 'Add context']
+                                  - [Role: AXButton | Desc: 'Add context']
+                                - [Role: AXPopUpButton | Title: 'Select conversation mode, current: Planning']
+                                  - [Role: AXButton | Desc: 'Select conversation mode, current: Planning']
+                                - [Role: AXPopUpButton | Title: 'Select model, current: Gemini 3.1 Pro (High)']
+                                  - [Role: AXButton | Desc: 'Select model, current: Gemini 3.1 Pro (High)']
+                                - [Role: AXButton | Desc: 'Record voice memo']
+                                - [Role: AXButton | Desc: 'Send message']
+                    - [Role: AXGroup]
+                      - [Role: AXGroup]
+                        - [Role: AXStaticText]
+                          Value:
+                            Info: Screen reader usage detected. Do you want to enable editor.accessibilitySupport to optimize the editor for screen reader usage?
+                      - [Role: AXGroup]
+                      - [Role: AXGroup]
+                        - [Role: AXStaticText] Value: 'Clear'
+                      - [Role: AXGroup]
+                    - [Role: AXGroup]
+                    - [Role: AXGroup]
+                      - [Role: AXGroup]
+                        - [Role: AXImage]
+                        - [Role: AXGroup]
+                        - [Role: AXGroup]
+                          - [Role: AXGroup]
+                            - [Role: AXTextField | Desc: 'Terminal 1 environment is stale, run the 'Show Environment Information' command for more information'] Value: '(base) uhd@UHDs-Mac-miniM1-2020 integrate_antigravity % '
+                          - [Role: AXGroup]
+                            - [Role: AXGroup]
+                              - [Role: AXStaticText] Value: ''
+                          - [Role: AXGroup]
+                          - [Role: AXImage]
+                          - [Role: AXImage]
+                  - [Role: AXList | Desc: 'Typeahead menu']
+                  - [Role: AXList | Desc: 'Typeahead menu']
+            - [Role: AXGroup]
+  - [Role: AXButton]
+  - [Role: AXButton]
+    - [Role: AXGroup]
+      - [Role: AXGroup]
+  - [Role: AXButton]
+
