@@ -1,0 +1,1430 @@
+{
+  "agent_panel": {
+    "past_conversations_button": {
+      "found": false
+    },
+    "select_conversation": {
+      "found": false
+    },
+    "button_count": 72,
+    "text_count": 590,
+    "window_title": "integrate_antigravity — ban_risk_tos_analysis_ko.md — Untracked"
+  },
+  "agent_manager": {
+    "window_title": "Manager",
+    "button_count": 24,
+    "text_count": 87,
+    "link_count": 0,
+    "group_count": 1,
+    "buttons": [
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "arrow_back",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "arrow_forward",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "add New Conversation",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "history Conversation History",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Open Workspace",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "progress_activity Analyzing Antigravity Project Architecture 1m",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Analyzing Project Structure And State 3h",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Analyzing Project Codebase 11h",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Verifying System Readiness 12h",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "안녕 14h",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Fixing Emulator Shutdown Issues 1d",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Committing And Pushing Changes 1d",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Optimizing Character Creation Flow 1d",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "Playroom Integration System Audit 1d",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "See all (7)",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "import_contacts Knowledge",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "settings Settings",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "lightbulb Provide Feedback",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "code Open editor",
+        "description": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Add context",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Select conversation mode, current: Planning",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Select model, current: Claude Opus 4.6 (Thinking)",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Record voice memo",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "subrole": null,
+        "title": "",
+        "description": "Send message",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      }
+    ],
+    "texts": [
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "dock_to_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "echo-insight-ai",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Open Editor",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "add",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "New Conversation",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "history",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Conversation History",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Workspaces",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "echo-insight-ai",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "eco-insight-server",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "alarm",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "integrate_antigravity",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "progress_activity",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Antigravity Project Architecture",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1m",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Project Structure And State",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "3h",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Project Codebase",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "11h",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "main",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "No chats yet",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "test",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Verifying System Readiness",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "12h",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "안녕",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "14h",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Helldyinger",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Fixing Emulator Shutdown Issues",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1d",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Committing And Pushing Changes",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1d",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Optimizing Character Creation Flow",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1d",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Playroom Integration System Audit",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1d",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "01.product",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "develop",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "No chats yet",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "0.playroom",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "1.map",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "hwanyong.github.io",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "InstantReality-Server",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 12,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "InstantReality-Vision-to-Motion",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "iohook-macos",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "mcp-debug-tools",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      }
+    ],
+    "links": [],
+    "groups": [
+      {
+        "depth": 1,
+        "role": "AXGroup",
+        "subrole": null,
+        "title": "Manager",
+        "description": "",
+        "value": "",
+        "actions": []
+      }
+    ],
+    "conversation_candidates": [
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "dock_to_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "echo-insight-ai",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Open Editor",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "New Conversation",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "history",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Conversation History",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Workspaces",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "echo-insight-ai",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "eco-insight-server",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "integrate_antigravity",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "progress_activity",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Antigravity Project Architecture",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Project Structure And State",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Analyzing Project Codebase",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "No chats yet",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Verifying System Readiness",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Helldyinger",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "keyboard_arrow_down",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Fixing Emulator Shutdown Issues",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Committing And Pushing Changes",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Optimizing Character Creation Flow",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "Playroom Integration System Audit",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "01.product",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXStaticText",
+        "subrole": null,
+        "title": "",
+        "description": "",
+        "value": "chevron_right",
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      }
+    ]
+  }
+}

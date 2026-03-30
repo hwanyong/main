@@ -1,0 +1,1197 @@
+{
+  "timestamp": "2026-03-29T01:32:36.444751",
+  "app": {
+    "name": "Antigravity",
+    "pid": 33362,
+    "bundle_id": "com.google.antigravity"
+  },
+  "windows": [
+    {
+      "index": 0,
+      "title": "integrate_antigravity — ban_risk_tos_analysis_ko.md — Untracked",
+      "role": "AXWindow",
+      "subrole": "AXStandardWindow",
+      "identifier": null
+    }
+  ],
+  "interesting_elements": {
+    "message_inputs": [
+      {
+        "role": "AXTextArea",
+        "description": "Message input",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 18
+      }
+    ],
+    "lists": [
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 4,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 4,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 7,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 3,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 4,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 2,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 4,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "role": "AXList",
+        "title": "",
+        "description": "",
+        "identifier": null,
+        "childCount": 5,
+        "children_preview": [
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          },
+          {
+            "role": "AXGroup",
+            "title": "",
+            "description": "",
+            "value": null,
+            "actions": [
+              "AXShowMenu",
+              "AXScrollToVisible"
+            ]
+          }
+        ],
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      }
+    ],
+    "tab_groups": [
+      {
+        "role": "AXTabGroup",
+        "title": "",
+        "description": "Active View Switcher",
+        "identifier": null,
+        "actions": [
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      }
+    ],
+    "buttons_with_titles": [
+      {
+        "title": "",
+        "description": "Customize Layout...",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Quick Open",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Open Browser (Preview)",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Editor-Specific Settings",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Explorer Section: integrate_antigravity",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Outline Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Timeline Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Code Search Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Toggle Replace",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 22
+      },
+      {
+        "title": "",
+        "description": "Replace All (Submit Search to Enable)",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 24
+      },
+      {
+        "title": "",
+        "description": "Toggle Search Details",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 22
+      },
+      {
+        "title": "",
+        "description": "Agent Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Terminal Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "Roo Code Section",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "",
+        "description": "remote",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "main (Git) - main*, Checkout Branch/Tag...",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "main (Git) - Publish to GitHub",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "No Problems",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Notifications",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Antigravity - Settings, Autocomplete Speed: Fast",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "🟢 Group 1: 100% | 🟢 Group 2: 40%, **🚀 Antigravity 할당량 모니터** --- | | | | | :--- | :--- | :--- | | **Group 1** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (High)** | `■■■■■■■■■■` | 100.00% → 5h 0m (06:30) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Gemini 3.1 Pro (Low)** | `■■■■■■■■■■` | 100.00% → 5h 0m (06:30) | | | | | | **Group 2** | | | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Sonnet 4.6 (Thinking)** | `■■■■□□□□□□` | 40.00% → 1h 46m (03:16) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **Claude Opus 4.6 (Thinking)** | `■■■■□□□□□□` | 40.00% → 1h 46m (03:16) | | &nbsp;&nbsp;&nbsp;&nbsp;🟢 **GPT-OSS 120B (Medium)** | `■■■■□□□□□□` | 40.00% → 1h 46m (03:16) | --- *클릭하여 할당량 모니터 열기*",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Markdown",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Editor Language Status: Markdown link validation disabled, next: $(copilot) No inline suggestion available, Inline suggestions",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "LF",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "UTF-8",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Spaces: 4",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Ln 1, Col 1",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Screen Reader Optimized",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "undo",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "Worked for 4m",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "Thought for 3s",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 18
+      },
+      {
+        "title": "Explored 3 files, 5 folders, 8 pages",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "Edited 1 file",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "undo",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "Worked for 4m",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "Thought for 6s",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 18
+      },
+      {
+        "title": "Explored 2 commands, 6 pages",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "Explored 5 commands",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "Explored 1 file, 3 commands",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "Edited 1 file",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "undo",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "Thought for 5s",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 18
+      },
+      {
+        "title": "Explored 1 command",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "Edited 1 file",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "difference",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "title": "Exploring 1 command",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 19
+      },
+      {
+        "title": "content_copy",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 21
+      },
+      {
+        "title": "Cancel",
+        "description": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 20
+      },
+      {
+        "title": "",
+        "description": "Add context",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "",
+        "description": "Select conversation mode, current: Planning",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "",
+        "description": "Select model, current: Claude Opus 4.6 (Thinking)",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 17
+      },
+      {
+        "title": "",
+        "description": "Record voice memo",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      },
+      {
+        "title": "",
+        "description": "Cancel",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ],
+        "depth": 16
+      }
+    ],
+    "static_texts_in_lists": [],
+    "identifiers": []
+  },
+  "deep_tree_sample": {
+    "_path": "",
+    "role": "AXWindow",
+    "subrole": "AXStandardWindow",
+    "title": "integrate_antigravity — ban_risk_tos_analysis_ko.md — Untracked",
+    "roleDescription": "standard window",
+    "actions": [
+      "AXRaise"
+    ],
+    "childCount": 4,
+    "children": [
+      {
+        "_path": "AXWindow[0]",
+        "role": "AXGroup",
+        "title": "integrate_antigravity — ban_risk_tos_analysis_ko.md — Untracked",
+        "roleDescription": "group",
+        "childCount": 1,
+        "children": [
+          {
+            "_path": "AXWindow[0]/AXGroup[0]",
+            "role": "AXGroup",
+            "roleDescription": "group",
+            "childCount": 1,
+            "children": [
+              {
+                "_path": "AXWindow[0]/AXGroup[0]/AXGroup[0]",
+                "role": "AXGroup",
+                "roleDescription": "group",
+                "childCount": 1,
+                "children": [
+                  {
+                    "_path": "AXWindow[0]/AXGroup[0]/AXGroup[0]/AXGroup[0]",
+                    "role": "AXGroup",
+                    "roleDescription": "group",
+                    "childCount": 1,
+                    "children": [
+                      {
+                        "_truncated": true,
+                        "_path": "AXWindow[0]/AXGroup[0]/AXGroup[0]/AXGroup[0]/AXGroup[0]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_path": "AXWindow[1]",
+        "role": "AXButton",
+        "subrole": "AXCloseButton",
+        "roleDescription": "close button",
+        "actions": [
+          "AXPress"
+        ]
+      },
+      {
+        "_path": "AXWindow[2]",
+        "role": "AXButton",
+        "subrole": "AXFullScreenButton",
+        "roleDescription": "full screen button",
+        "actions": [
+          "AXPress",
+          "AXZoomWindow",
+          "AXShowMenu"
+        ],
+        "childCount": 1,
+        "children": [
+          {
+            "_path": "AXWindow[2]/AXButton[0]",
+            "role": "AXGroup",
+            "roleDescription": "group",
+            "childCount": 1,
+            "children": [
+              {
+                "_path": "AXWindow[2]/AXButton[0]/AXGroup[0]",
+                "role": "AXGroup",
+                "roleDescription": "group"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_path": "AXWindow[3]",
+        "role": "AXButton",
+        "subrole": "AXMinimizeButton",
+        "roleDescription": "minimize button",
+        "actions": [
+          "AXPress"
+        ]
+      }
+    ]
+  }
+}

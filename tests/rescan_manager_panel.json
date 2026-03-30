@@ -1,0 +1,484 @@
+{
+  "manager_after_enter": {
+    "text_areas": [
+      {
+        "depth": 15,
+        "role": "AXTextArea",
+        "title": "",
+        "desc": "Message input",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      }
+    ],
+    "text_fields": [],
+    "send_buttons": [],
+    "all_buttons": [
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "arrow_back",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "arrow_forward",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "add New Conversation",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "history Conversation History",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "",
+        "desc": "Open Workspace",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "progress_activity Analyzing Antigravity Project Architecture now",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Analyzing Project Structure And State 3h",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Analyzing Project Codebase 11h",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Verifying System Readiness 12h",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "안녕 14h",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Fixing Emulator Shutdown Issues 1d",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Committing And Pushing Changes 1d",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Optimizing Character Creation Flow 1d",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "Playroom Integration System Audit 1d",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 11,
+        "role": "AXButton",
+        "title": "See all (7)",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "import_contacts Knowledge",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "settings Settings",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 10,
+        "role": "AXButton",
+        "title": "lightbulb Provide Feedback",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 15,
+        "role": "AXButton",
+        "title": "undo",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 15,
+        "role": "AXButton",
+        "title": "Worked for 4m",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 15,
+        "role": "AXButton",
+        "title": "undo",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 16,
+        "role": "AXButton",
+        "title": "Thought for 7s",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 17,
+        "role": "AXButton",
+        "title": "Edited 1 file",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 17,
+        "role": "AXButton",
+        "title": "Exploring 1 command",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 18,
+        "role": "AXButton",
+        "title": "content_copy",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 18,
+        "role": "AXButton",
+        "title": "Cancel",
+        "desc": "",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 14,
+        "role": "AXButton",
+        "title": "",
+        "desc": "Add context",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 14,
+        "role": "AXButton",
+        "title": "",
+        "desc": "Select conversation mode, current: Planning",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 14,
+        "role": "AXButton",
+        "title": "",
+        "desc": "Select model, current: Claude Opus 4.6 (Thinking)",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      },
+      {
+        "depth": 13,
+        "role": "AXButton",
+        "title": "",
+        "desc": "Record voice memo",
+        "value": "",
+        "actions": [
+          "AXPress",
+          "AXShowMenu",
+          "AXScrollToVisible"
+        ]
+      }
+    ]
+  },
+  "panel_header_buttons": [
+    {
+      "depth": 10,
+      "title": "Account",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Agent",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Browser",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Notifications",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Models",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Customizations",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Tab",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Editor",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 10,
+      "title": "Provide Feedback",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 11,
+      "title": "Refresh",
+      "desc": "",
+      "actions": [
+        "AXPress",
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    }
+  ]
+}

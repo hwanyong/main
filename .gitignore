@@ -1,0 +1,7 @@
+.venv_monitor/
+__pycache__/
+*.pyc
+
+# Runtime artifacts
+.agent_response.json
+accessibility_tree_dump.txt

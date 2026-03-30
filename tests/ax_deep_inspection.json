@@ -1,0 +1,1298 @@
+{
+  "agent_button": {
+    "found": false
+  },
+  "message_input": {
+    "found": true,
+    "actions": [
+      "AXPress",
+      "AXShowMenu",
+      "AXScrollToVisible"
+    ]
+  },
+  "send_button": {
+    "found": false
+  },
+  "chat_texts_sample": [
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "金",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 19,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "11",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 18,
+      "value": "Explorer",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "integrate_antigravity",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Outline",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Timeline",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Code Search",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 24,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Agent",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Terminal",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 23,
+      "value": "Roo Code",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 19,
+      "value": "Drop to add to Agent",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": " main*",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": " 0 ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": "",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 17,
+      "value": " 0",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 20,
+      "value": "analyzer",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 19,
+      "value": "이제 프로그램을 업그레이드 할거야\n\n## 플로우 개선\n원하는 것:\n- 대화창 새로열기\n- 대화창 이서 사용하기\n- 대화창 별로 세션 관리\n- 이전 대화(세션)에 연결\n- 새로운 창(워크스페이스) 열기\n- 이미 열린 창 접근(PID)\n- 세션 대화를 파일별로 관리: 워크스페이스마다 내부 숨김폴더를 만들어서 관리",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 19,
+      "value": "\n",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 19,
+      "value": "- 원하는 패널 이름, 원하는 프로세스 이름을 프로젝트(워크스페이스)  별로 작성할 수 있는 config 파일. 기본은 antigravity의 agent\n\n이밖에 필요한 플로우 제어 요소를 더 찾을 필요가 있음",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "The ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "user ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "wants ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "to ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "upgrade ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "the ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    },
+    {
+      "depth": 21,
+      "value": "program ",
+      "title": "",
+      "description": "",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ]
+    }
+  ],
+  "undo_buttons": 3,
+  "list_dumps": [
+    {
+      "_path": "root",
+      "role": "AXList",
+      "subrole": "AXContentList",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ],
+      "childCount": 4,
+      "children": [
+        {
+          "_path": "root/AXList[0]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[0]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "1. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Re-read the current source code to understand what exists",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[1]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[1]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "2. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Analyze the requested features against what's currently implemented",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[2]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[2]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "3. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[2]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Research relevant macOS accessibility APIs and patterns",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[3]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[3]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "4. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Provide a comprehensive analysis report with recommendations",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_path": "root",
+      "role": "AXList",
+      "subrole": "AXContentList",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ],
+      "childCount": 4,
+      "children": [
+        {
+          "_path": "root/AXList[0]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 5,
+          "children": [
+            {
+              "_path": "root/AXList[0]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "• ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[1]",
+              "role": "AXGroup",
+              "subrole": "AXStrongStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[0]/AXGroup[1]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "새 대화",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[2]",
+              "role": "AXStaticText",
+              "value": ": ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[3]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[0]/AXGroup[3]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "Cmd+Shift+L",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[4]",
+              "role": "AXStaticText",
+              "value": " 시뮬레이션 (또는 Command Palette 폴백)",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[1]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 5,
+          "children": [
+            {
+              "_path": "root/AXList[1]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "• ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[1]",
+              "role": "AXGroup",
+              "subrole": "AXStrongStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[1]/AXGroup[1]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "윈도우 선택",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[2]",
+              "role": "AXStaticText",
+              "value": ": ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[3]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[1]/AXGroup[3]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "kAXTitleAttribute",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[4]",
+              "role": "AXStaticText",
+              "value": " 매칭 → 워크스페이스 경로 추출",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[2]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 4,
+          "children": [
+            {
+              "_path": "root/AXList[2]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "• ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[2]/AXGroup[1]",
+              "role": "AXGroup",
+              "subrole": "AXStrongStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[2]/AXGroup[1]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "워크스페이스 열기",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[2]/AXGroup[2]",
+              "role": "AXStaticText",
+              "value": ": ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[2]/AXGroup[3]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[2]/AXGroup[3]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "subprocess.run([\"antigravity\", \"--new-window\", path])",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[3]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 12,
+          "children": [
+            {
+              "_path": "root/AXList[3]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "• ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[1]",
+              "role": "AXGroup",
+              "subrole": "AXStrongStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[1]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "단일 파일 → 5개 모듈",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[2]",
+              "role": "AXStaticText",
+              "value": ": ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[3]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[3]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "cli/",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[4]",
+              "role": "AXStaticText",
+              "value": ", ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[5]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[5]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "core/",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[6]",
+              "role": "AXStaticText",
+              "value": ", ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[7]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[7]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "ax/",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[8]",
+              "role": "AXStaticText",
+              "value": ", ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[9]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[9]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "session/",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[10]",
+              "role": "AXStaticText",
+              "value": ", ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[11]",
+              "role": "AXGroup",
+              "subrole": "AXCodeStyleGroup",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ],
+              "childCount": 1,
+              "children": [
+                {
+                  "_path": "root/AXList[3]/AXGroup[11]/AXGroup[0]",
+                  "role": "AXStaticText",
+                  "value": "config/",
+                  "actions": [
+                    "AXShowMenu",
+                    "AXScrollToVisible"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_path": "root",
+      "role": "AXList",
+      "subrole": "AXContentList",
+      "actions": [
+        "AXShowMenu",
+        "AXScrollToVisible"
+      ],
+      "childCount": 7,
+      "children": [
+        {
+          "_path": "root/AXList[0]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[0]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "1. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[0]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Each sub-agent runs this program as an independent process",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[1]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[1]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "2. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[1]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Actions are sequential per process (no parallel actions within one session)",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[2]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[2]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "3. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[2]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Sub-agents should be able to autonomously decide: \"Do I need a previous conversation or a new one?\"",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[3]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[3]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "4. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[3]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Sub-agents find and connect to the right conversation themselves",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[4]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[4]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "5. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[4]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "Session files need conversation content + metadata for tracking",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[5]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[5]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "6. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[5]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "The Agent panel has conversation titles that can be used as identifiers",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        },
+        {
+          "_path": "root/AXList[6]",
+          "role": "AXGroup",
+          "actions": [
+            "AXShowMenu",
+            "AXScrollToVisible"
+          ],
+          "childCount": 2,
+          "children": [
+            {
+              "_path": "root/AXList[6]/AXGroup[0]",
+              "role": "AXListMarker",
+              "value": "7. ",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            },
+            {
+              "_path": "root/AXList[6]/AXGroup[1]",
+              "role": "AXStaticText",
+              "value": "If internal IDs exist, use title + ID together",
+              "actions": [
+                "AXShowMenu",
+                "AXScrollToVisible"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
