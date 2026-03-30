@@ -1,5 +1,5 @@
 ---
-name: agbridge-parallel-analyzer
+name: agbridge-parallel-ide-agent
 description: Control and interact with the Antigravity Bridge Daemon (`agbridge`) for asynchronous codebase analysis and parallel agent execution. This skill provides instructions on how to use the CLI and manage workspace sessions.
 ---
 
