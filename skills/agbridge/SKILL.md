@@ -73,7 +73,7 @@ agbridge debug tree --depth 20
 ```
 
 ---
-*For detailed human-readable guides, please refer to: [agbridge_guide_en.md](agbridge_guide_en.md) and [agbridge_guide_ko.md](agbridge_guide_ko.md)*
+*For detailed human-readable guides, please refer to: [resources/agbridge_guide_en.md](resources/agbridge_guide_en.md) and [resources/agbridge_guide_ko.md](resources/agbridge_guide_ko.md)*
 
 ### 5. Tracking Conversation History (`.ag-sessions`)
 If you want to view, track, or manage the local conversation history of your daemon interactions, look for the `.ag-sessions` folder inside your target workspace.
