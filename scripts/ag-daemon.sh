@@ -41,17 +41,17 @@ function install_daemon() {
         echo "♻️ Updated 'agbridge' alias in $ZSHRC."
     fi
     
-    # 4. Global Skills 설치 (agbridge 등)
+    # 4. Global Skills 설치 (agbridge-parallel-analyzer 등)
     GEMINI_SKILLS_DIR="$HOME/.gemini/antigravity/skills"
     AGENTS_SKILLS_DIR="$HOME/.agents/skills"
     if [ -d "$PROJECT_ROOT/skills" ]; then
         mkdir -p "$GEMINI_SKILLS_DIR"
         cp -R "$PROJECT_ROOT/skills/"* "$GEMINI_SKILLS_DIR/" 2>/dev/null || true
-        echo "✅ Installed global skills (e.g., agbridge) to $GEMINI_SKILLS_DIR."
+        echo "✅ Installed global skills (e.g., agbridge-parallel-analyzer) to $GEMINI_SKILLS_DIR."
 
         mkdir -p "$AGENTS_SKILLS_DIR"
         cp -R "$PROJECT_ROOT/skills/"* "$AGENTS_SKILLS_DIR/" 2>/dev/null || true
-        echo "✅ Installed global skills (e.g., agbridge) to $AGENTS_SKILLS_DIR."
+        echo "✅ Installed global skills (e.g., agbridge-parallel-analyzer) to $AGENTS_SKILLS_DIR."
     fi
     
     echo "======================================================"
@@ -84,16 +84,22 @@ function uninstall_daemon() {
     rm -f /tmp/.ag-input-bridge.sock /tmp/.ag-input-bridge.log
 
     # Global Skills 정리
+    if [ -d "$HOME/.gemini/antigravity/skills/agbridge-parallel-analyzer" ]; then
+        rm -rf "$HOME/.gemini/antigravity/skills/agbridge-parallel-analyzer"
+        echo "✅ Removed global skill 'agbridge-parallel-analyzer' from .gemini."
+    fi
     if [ -d "$HOME/.gemini/antigravity/skills/agbridge" ]; then
         rm -rf "$HOME/.gemini/antigravity/skills/agbridge"
-        echo "✅ Removed global skill 'agbridge' from .gemini."
     fi
     if [ -d "$HOME/.gemini/antigravity/skills/analyzer" ]; then
         rm -rf "$HOME/.gemini/antigravity/skills/analyzer"
     fi
+    if [ -d "$HOME/.agents/skills/agbridge-parallel-analyzer" ]; then
+        rm -rf "$HOME/.agents/skills/agbridge-parallel-analyzer"
+        echo "✅ Removed global skill 'agbridge-parallel-analyzer' from .agents."
+    fi
     if [ -d "$HOME/.agents/skills/agbridge" ]; then
         rm -rf "$HOME/.agents/skills/agbridge"
-        echo "✅ Removed global skill 'agbridge' from .agents."
     fi
 
     echo "Daemon uninstalled."
