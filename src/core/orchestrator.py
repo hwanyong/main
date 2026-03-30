@@ -325,7 +325,7 @@ def status(workspace=None):
 
 # ── Info 워크플로우 ──────────────────────────────────────────
 
-def info(workspace=None):
+def info(workspace=None, refresh=False):
     """
     현재 워크스페이스에서 사용 가능한 워크플로우 통계 및
     대상 VS Code (Antigravity) 윈도우에서 지원하는 AI 모델과 모드를 덤프한다.
@@ -353,29 +353,18 @@ def info(workspace=None):
     
     print("\n── 🤖 AI 모델 및 대화 모드 감지 중 ──")
     
-    # 2. AX UI 기반 정보 파싱
-    from src.ax.discovery import find_antigravity, wait_for_windows, find_window_by_workspace
-    app, pid, ax_app = find_antigravity()
-    if not app:
-        print("❌ Antigravity 편집기가 실행 중이 아닙니다. 모델 스크래핑을 건너뜁니다.")
-        return
-
-    windows = wait_for_windows(ax_app)
-    if not windows:
-        print("❌ 윈도우를 찾을 수 없습니다.")
-        return
-        
-    win_match = find_window_by_workspace(ax_app, pid, workspace_path)
-    if win_match:
-        ax_win = win_match
-    else:
-        ax_win = windows[0]["ax_ref"]
-    
-    # AX API에서 모델 찾기
-    from src.ax.settings import list_models, list_modes
+    # 2. 레지스트리 기반 정보 조회
+    from src.core.registry_init import initialize_registry
     try:
-        models = list_models(ax_win)
-        modes = list_modes(ax_win)
+        data = initialize_registry(force=refresh)
+        if not data:
+            print("❌ 모델 레지스트리를 읽을 수 없습니다.")
+            return
+
+        print(f"  (버전: {data.get('antigravity_version')}, 업데이트: {data.get('last_initialized_at_utc')})")
+        
+        models = data.get("models", [])
+        modes = data.get("modes", [])
         
         print("\n── 🧠 확인된 AI 모델 (Models) ──")
         if models:
@@ -392,7 +381,7 @@ def info(workspace=None):
              print("  (모드 정보를 찾을 수 없습니다)")
 
     except Exception as e:
-         print(f"⚠️ UI 추출 중 오류 발생: {e}")
+         print(f"⚠️ 레지스트리 로드 중 오류 발생: {e}")
 
 
 

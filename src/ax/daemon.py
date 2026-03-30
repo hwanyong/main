@@ -47,6 +47,12 @@ class InputDaemon:
         worker = threading.Thread(target=self._process_queue, daemon=True)
         worker.start()
         
+        from src.core.registry_init import initialize_registry
+        try:
+            initialize_registry()
+        except Exception as e:
+            print(f"Daemon initialization warning: {e}")
+            
         print(f"Daemon listening on {SOCKET_PATH}...")
         try:
             while self.running:

@@ -47,6 +47,7 @@ def main():
     # ── info ─────────────────────────────────────────────────
     info_parser = subparsers.add_parser("info", help="워크플로우/모델 정보 조회")
     info_parser.add_argument("--workspace", "-w", help="워크스페이스 경로")
+    info_parser.add_argument("--refresh", action="store_true", help="레지스트리 강제 새로고침")
 
     # ── debug ────────────────────────────────────────────────
     debug_parser = subparsers.add_parser("debug", help="디버그 도구")
@@ -87,7 +88,7 @@ def main():
 
     elif args.command == "info":
         from src.core.orchestrator import info
-        info(workspace=args.workspace)
+        info(workspace=args.workspace, refresh=args.refresh)
 
     elif args.command == "debug":
         _handle_debug(args)
