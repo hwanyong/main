@@ -67,7 +67,62 @@ def _parse_current_value(popup_title, prefix):
     return None
 
 
+# ── 항목 수집 공통 ───────────────────────────────────────────
+
+def _collect_popup_items(window, prefix, role_filter, depth_range):
+    """
+    AXPopUpButton을 열어 나타나는 하위 항목(AXButton 또는 AXMenuItem)의
+    AXTitle 목록을 수집한 뒤, 팝업을 닫고 결과를 반환한다.
+
+    Args:
+        window: AX 윈도우
+        prefix: 팝업 버튼의 title prefix ("Select model" 등)
+        role_filter: 수집할 항목의 AXRole ("AXButton" 또는 "AXMenuItem")
+        depth_range: (min_depth, max_depth) 튜플
+
+    Returns:
+        list[str]: 항목 제목 목록
+    """
+    popup = _find_popup_button(window, prefix)
+    if not popup:
+        return []
+
+    AXUIElementPerformAction(popup, "AXPress")
+
+    import time
+    time.sleep(0.5)
+
+    items = []
+    min_d, max_d = depth_range
+
+    def scan(el, depth=0):
+        if depth > max_d + 2:
+            return
+        role = str(_get_attr(el, kAXRoleAttribute) or "")
+        if role == role_filter and min_d <= depth <= max_d:
+            title = str(_get_attr(el, kAXTitleAttribute) or "")
+            if title:
+                items.append(title)
+        children = _get_attr(el, kAXChildrenAttribute)
+        if children:
+            for c in children:
+                scan(c, depth + 1)
+
+    scan(window)
+
+    from src.ax.input import press_escape
+    press_escape()
+
+    return items
+
+
 # ── 모델 ─────────────────────────────────────────────────────
+
+def list_models(window):
+    """사용 가능한 AI 모델 목록을 반환한다."""
+    prefix = get_default("ax.model_popup_title_prefix")
+    return _collect_popup_items(window, prefix, "AXButton", (7, 11))
+
 
 def get_current_model(window):
     """현재 선택된 모델 이름을 반환한다."""
@@ -153,6 +208,12 @@ def _popup_title_contains(window, prefix, target_name):
 
 
 # ── 모드 ─────────────────────────────────────────────────────
+
+def list_modes(window):
+    """사용 가능한 대화 모드 목록을 반환한다."""
+    prefix = get_default("ax.mode_popup_title_prefix")
+    return _collect_popup_items(window, prefix, "AXMenuItem", (8, 12))
+
 
 def get_current_mode(window):
     """현재 선택된 모드 이름을 반환한다."""

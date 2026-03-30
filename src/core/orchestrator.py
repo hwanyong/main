@@ -34,6 +34,7 @@ from src.ax.typeahead import select_workflow, insert_mentions
 from src.core.events import wait_until
 from src.core.prompt import build_prompt
 from src.core.prompt_parser import parse_prompt
+from src.core.workflows import get_workflows
 from src.core.response import (
     collect_response,
     get_response_save_path,
@@ -320,6 +321,79 @@ def status(workspace=None):
             active_id = mgr.storage.get_active()
             marker = " ★" if s["id"] == active_id else ""
             print(f"  {s['id']}{marker} — {s['title']} ({s['total_turns']}턴)")
+
+
+# ── Info 워크플로우 ──────────────────────────────────────────
+
+def info(workspace=None):
+    """
+    현재 워크스페이스에서 사용 가능한 워크플로우 통계 및
+    대상 VS Code (Antigravity) 윈도우에서 지원하는 AI 모델과 모드를 덤프한다.
+    """
+    workspace_path = workspace or os.getcwd()
+    
+    # 1. 파일 시스템 기반 덤프 (Lock 불필요)
+    print("── 🛠️  워크플로우 (Workflows) ──")
+    wfs = get_workflows(workspace_path)
+    
+    if wfs["global"]:
+        print("  [Global]")
+        for w in wfs["global"]:
+            print(f"   - {w}")
+    else:
+        print("  [Global] 없음")
+        
+    print("")
+    if wfs["workspace"]:
+        print("  [Workspace]")
+        for w in wfs["workspace"]:
+            print(f"   - {w}")
+    else:
+        print("  [Workspace] 없음")
+    
+    print("\n── 🤖 AI 모델 및 대화 모드 감지 중 ──")
+    
+    # 2. AX UI 기반 정보 파싱
+    from src.ax.discovery import find_antigravity, wait_for_windows, find_window_by_workspace
+    app, pid, ax_app = find_antigravity()
+    if not app:
+        print("❌ Antigravity 편집기가 실행 중이 아닙니다. 모델 스크래핑을 건너뜁니다.")
+        return
+
+    windows = wait_for_windows(ax_app)
+    if not windows:
+        print("❌ 윈도우를 찾을 수 없습니다.")
+        return
+        
+    win_match = find_window_by_workspace(ax_app, pid, workspace_path)
+    if win_match:
+        ax_win = win_match
+    else:
+        ax_win = windows[0]["ax_ref"]
+    
+    # AX API에서 모델 찾기
+    from src.ax.settings import list_models, list_modes
+    try:
+        models = list_models(ax_win)
+        modes = list_modes(ax_win)
+        
+        print("\n── 🧠 확인된 AI 모델 (Models) ──")
+        if models:
+            for m in models:
+                print(f"  - {m}")
+        else:
+            print("  (모델 정보를 찾을 수 없습니다)")
+            
+        print("\n── 🔮 대화 모드 (Modes) ──")
+        if modes:
+            for m in modes:
+                print(f"  - {m}")
+        else:
+             print("  (모드 정보를 찾을 수 없습니다)")
+
+    except Exception as e:
+         print(f"⚠️ UI 추출 중 오류 발생: {e}")
+
 
 
 # ── Debug Tree 워크플로우 ────────────────────────────────────

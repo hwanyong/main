@@ -44,6 +44,10 @@ def main():
     status_parser = subparsers.add_parser("status", help="현재 상태")
     status_parser.add_argument("--workspace", "-w", help="워크스페이스 경로")
 
+    # ── info ─────────────────────────────────────────────────
+    info_parser = subparsers.add_parser("info", help="워크플로우/모델 정보 조회")
+    info_parser.add_argument("--workspace", "-w", help="워크스페이스 경로")
+
     # ── debug ────────────────────────────────────────────────
     debug_parser = subparsers.add_parser("debug", help="디버그 도구")
     debug_sub = debug_parser.add_subparsers(
@@ -80,6 +84,10 @@ def main():
     elif args.command == "status":
         from src.core.orchestrator import status
         status(workspace=args.workspace)
+
+    elif args.command == "info":
+        from src.core.orchestrator import info
+        info(workspace=args.workspace)
 
     elif args.command == "debug":
         _handle_debug(args)
