@@ -27,12 +27,7 @@ from src.ax.panel import (
     wait_for_idle,
 )
 from src.ax.conversations import select_conversation
-from src.ax.input import (
-    simple_paste,
-    press_cmd_enter,
-    ClipboardQueue,
-    GlobalInputLock,
-)
+from src.ax.client import push_prompt
 from src.ax.blockers import dismiss_all_blockers
 from src.ax.settings import select_model, select_mode
 from src.ax.typeahead import select_workflow, insert_mentions
@@ -47,17 +42,6 @@ from src.core.response import (
 from src.session.manager import SessionManager
 from src.session.lock import WindowLock
 
-
-# ── 싱글턴 ClipboardQueue ──────────────────────────────────
-
-_clipboard_queue = None
-
-
-def _get_clipboard_queue():
-    global _clipboard_queue
-    if _clipboard_queue is None:
-        _clipboard_queue = ClipboardQueue()
-    return _clipboard_queue
 
 
 # ── Ask 워크플로우 ──────────────────────────────────────────
@@ -159,15 +143,6 @@ def ask(user_input, workspace=None, session_id=None,
     # 프롬프트 생성 (잠금 밖에서 준비)
     full_prompt = build_prompt(parsed.clean_text)
 
-    # ══════════════════════════════════════════════════════════
-    # ── CRITICAL SECTION: GlobalInputLock ─────────────────────
-    # raise_window ~ 전송 확인까지 전체를 원자적으로 보호.
-    # 다른 에이전트 프로세스는 이 구간 밖에서 대기한다.
-    # ══════════════════════════════════════════════════════════
-    print("[5/10] 입력 파이프라인 잠금 대기...")
-    input_lock = GlobalInputLock()
-    input_lock.acquire()
-    print("  → 잠금 획득. 입력 시작.")
 
     # 윈도우 잠금 (같은 워크스페이스 이중 접근 방지)
     window_lock = WindowLock(workspace_path)
@@ -203,11 +178,16 @@ def ask(user_input, workspace=None, session_id=None,
         # 세션이 없으면 현재 대화로 자동 생성
         if not current_session:
             panel_title = get_panel_title(target_window) or "Agent"
-            if panel_title != "Agent":
-                current_session = session_mgr.create(panel_title)
-                turn = 1
-                print(f"  → 새 세션: \"{current_session['id']}\"")
-
+            
+            # Agent 등 초기 일반 타이틀일 때 덮어쓰기 방지 위해 타임스탬프 기반 ID 생성
+            session_id = None
+            if panel_title == "Agent":
+                import datetime
+                session_id = f"chat_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                
+            current_session = session_mgr.create(panel_title, session_id=session_id)
+            turn = 1
+            print(f"  → 새 세션: \"{current_session['id']}\"")
         # ── E5: INPUT_FOUND ─────────────────────────────────
         message_input = wait_for_message_input(target_window)
 
@@ -250,17 +230,12 @@ def ask(user_input, workspace=None, session_id=None,
                 if r is None:
                     print(f"  ⚠️ mention 실패: {parsed.mentions[i]}")
 
-        # ── E7: TEXT_PASTED ─────────────────────────────────
-        print(f"[6/10] 프롬프트 입력 ({len(full_prompt)} chars)...")
-        if use_queue:
-            queue = _get_clipboard_queue()
-            queue.paste(full_prompt, message_input)
-        else:
-            simple_paste(full_prompt, message_input)
-
-        # ── 전송 ────────────────────────────────────────────
-        print("[7/10] 전송...")
-        press_cmd_enter()
+        # ── E7: TEXT_PASTED & 전송 ────────────────────────────
+        print(f"[6/10] 데몬에 입력 전송 요청 ({len(full_prompt)} chars)...")
+        from src.ax.discovery import _ax_element_get_window_id
+        cg_id = _ax_element_get_window_id(target_window)
+        push_prompt(pid, cg_id, full_prompt)
+        print("[7/10] 데몬 입력 처리 완료.")
 
         # 세션 이력: 사용자 턴 기록
         if current_session:
@@ -274,13 +249,10 @@ def ask(user_input, workspace=None, session_id=None,
         print("  → 전송 확인됨. 응답 생성 중...")
 
     finally:
-        # ── 입력 잠금 해제 — 다음 에이전트가 입력 시작 가능 ──
         window_lock.release()
-        input_lock.release()
-        print("  → 입력 잠금 해제.")
 
     # ══════════════════════════════════════════════════════════
-    # 여기서부터는 잠금 밖 — 다른 에이전트가 병렬로 입력 가능
+    # 여기서부터는 잠금 밖 — 다른 에이전트가 병렬로 읽기 가능
     # ══════════════════════════════════════════════════════════
 
     # ── E10: SEND_REAPPEARED (생성 완료) ──────────────────

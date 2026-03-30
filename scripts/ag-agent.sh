@@ -8,4 +8,8 @@ if [ ! -d ".venv_monitor" ]; then
     .venv_monitor/bin/pip install pyobjc-framework-ApplicationServices pyobjc-framework-Cocoa pyobjc-framework-Quartz pyyaml
 fi
 
-PYTHONPATH="." .venv_monitor/bin/python3 -m src "$@"
+# 데몬 상태 점검 및 자동 시작
+./scripts/ag-daemon.sh status | grep -q 'is running' || ./scripts/ag-daemon.sh start
+
+export PYTHONPATH="."
+exec .venv_monitor/bin/python3 -m src "$@"

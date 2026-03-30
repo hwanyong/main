@@ -41,12 +41,12 @@ from src.ax.panel import (
     wait_for_idle,
 )
 from src.ax.blockers import dismiss_all_blockers
-from src.ax.input import simple_paste, press_cmd_enter
+from src.ax.client import push_prompt
 from src.ax.ax_response import extract_response
 from src.core.events import wait_until
 
 
-WORKSPACE = (
+WORKSPACE = sys.argv[1] if len(sys.argv) > 1 else (
     "/Users/uhd/LOCAL/01-01_Projects/GEMINI_CLI"
     "/playground/integrate_antigravity/calc_test"
 )
@@ -133,15 +133,12 @@ def run():
     focus_message_input(msg_input)
     record("T16_focus_message_input", True)
 
-    log("5/8", f"프롬프트 붙여넣기 ({len(PROMPT)} chars)...")
-    simple_paste(PROMPT, msg_input)
-    record("T20_simple_paste", True)
+    log("5/8", f"프롬프트 붙여넣기 및 전송 ({len(PROMPT)} chars) (via Daemon)...")
+    push_prompt(pid, cg_id, PROMPT)
+    record("T20_push_prompt", True)
 
     state_before = get_conversation_state(target)
     record("T18_conv_state_idle", state_before == "idle", state_before)
-
-    log("6/8", "전송 (Cmd+Enter)...")
-    press_cmd_enter()
 
     # Send 버튼 사라짐 확인 (전송됨)
     send_gone = wait_until(

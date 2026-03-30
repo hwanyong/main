@@ -210,13 +210,13 @@ def activate_and_wait(app):
 
 def raise_window(app, window):
     """
-    특정 윈도우를 포그라운드로 가져온다.
-    AXRaise 액션으로 해당 윈도우만 최상단에 배치한다.
-    CGEventPost 키이벤트가 이 윈도우로 정확히 전달되도록 보장.
+    특정 윈도우를 최상단 포그라운드로 올린다.
     """
     if not app.isActive():
-        app.activateWithOptions_(0)
-        wait_until(lambda: app.isActive())
+        # 2 = NSApplicationActivateIgnoringOtherApps
+        app.activateWithOptions_(2)
+        # Timeout 추가하여 무한대기 방지
+        wait_until(lambda: app.isActive(), timeout=5)
 
     AXUIElementPerformAction(window, "AXRaise")
     AXUIElementSetAttributeValue(window, kAXMainAttribute, True)
