@@ -41,6 +41,14 @@ function install_daemon() {
         echo "♻️ Updated 'agbridge' alias in $ZSHRC."
     fi
     
+    # 4. Global Skills 설치 (analyzer 등)
+    GLOBAL_SKILLS_DIR="$HOME/.gemini/antigravity/skills"
+    if [ -d "$PROJECT_ROOT/skills" ]; then
+        mkdir -p "$GLOBAL_SKILLS_DIR"
+        cp -R "$PROJECT_ROOT/skills/"* "$GLOBAL_SKILLS_DIR/" 2>/dev/null || true
+        echo "✅ Installed global skills (e.g., analyzer) to $GLOBAL_SKILLS_DIR."
+    fi
+    
     echo "======================================================"
     echo "✅ Installation complete."
     echo "⚠️  [중요] 처음 실행 시 macOS [시스템 설정 > 개인정보 보호 및 보안 > 손쉬운 사용(Accessibility)]에"
@@ -69,6 +77,13 @@ function uninstall_daemon() {
     
     # 소켓 및 로그 정리
     rm -f /tmp/.ag-input-bridge.sock /tmp/.ag-input-bridge.log
+
+    # Global Skills 정리
+    if [ -d "$HOME/.gemini/antigravity/skills/analyzer" ]; then
+        rm -rf "$HOME/.gemini/antigravity/skills/analyzer"
+        echo "✅ Removed global skill 'analyzer'."
+    fi
+
     echo "Daemon uninstalled."
 }
 
