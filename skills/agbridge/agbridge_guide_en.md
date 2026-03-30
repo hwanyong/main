@@ -1,6 +1,6 @@
-# Antigravity Analyzer Guide (Powered by agbridge Daemon)
+# Agbridge Daemon Control Guide (Antigravity Bridge)
 
-This document provides instructions on how to run the read-only codebase Analyzer workflow utilizing the **Antigravity Bridge Daemon (`agbridge`)**. By routing prompts through this background agent, you can dispatch comprehensive analysis jobs in parallel without interrupting your local workflow.
+This document provides instructions on how to control and execute parallel workflows using the **Antigravity Bridge Daemon (`agbridge`)**. By routing prompts through this background agent, you can dispatch comprehensive codebase analysis or automation jobs in parallel without interrupting your local workflow.
 
 ## ⚠️ Core Constraints
 - **Read-Only**: The Analyzer must NEVER modify, create, or delete project source code files.
@@ -79,3 +79,12 @@ For advanced cases where the AI cannot correctly parse the UI state for analysis
   agbridge debug tree
   # Override max depth: agbridge debug tree --depth 20
   ```
+
+### 5. Tracking Conversation History (`.ag-sessions`)
+If you want to view, track, or manage the local conversation history of your daemon interactions, look for the `.ag-sessions` folder inside your target workspace.
+
+- **Directory Location**: `<TARGET_WORKSPACE_PATH>/.ag-sessions/`
+- **Internal Structure**:
+  - `history_<session_id>.json`: Contains the raw conversation log (user inputs and AI responses) for a specific background session.
+  - `active_session.txt`: Tracks which session ID is currently active for the workspace.
+Tracing these files is highly recommended when you need to audit the agent's analysis context or verify the JSON data generated during deep codebase scans.

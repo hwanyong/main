@@ -1,6 +1,6 @@
-# Antigravity Analyzer 활용 가이드 (agbridge 데몬 기반)
+# Agbridge 데몬 제어 가이드 (Antigravity Bridge)
 
-본 문서는 **Antigravity Bridge Daemon (`agbridge`)**을 활용하여 읽기 전용으로 코드베이스를 깊이 있게 분석하는 Analyzer 워크플로우의 실행 방법을 안내합니다. 백그라운드 데몬 및 메시지 큐 시스템을 통해 개발 중단 없이 안전하게 코드 분석을 병렬로 지시할 수 있습니다.
+본 문서는 **Antigravity Bridge Daemon (`agbridge`)**을 백그라운드에서 제어하고 병렬 워크플로우를 실행하는 방법을 안내합니다. 데몬 및 메시지 큐 시스템을 활용하여 개발 중단 없이 읽기 전용 코드 분석이나 자동화 작업을 안전하게 병렬로 지시할 수 있습니다.
 
 ## ⚠️ 핵심 제약 사항 (Constraints)
 - **읽기 전용 (Read-Only)**: Analyzer는 절대로 프로젝트 소스 코드를 편집, 생성, 삭제해서는 안 됩니다.
@@ -79,3 +79,12 @@
   agbridge debug tree
   # 깊이 조절: agbridge debug tree --depth 20
   ```
+
+### 5. 대화 내역(Session History) 추적하기
+`agbridge`를 통해 진행되는 백그라운드 에이전트와의 대화 및 분석 상태를 직접 파일로 확인하고 싶다면, 대상 워크스페이스의 루트 경로에 생성되는 `.ag-sessions` 폴더를 확인하세요.
+
+- **경로 위치**: `<대상_워크스페이스_경로>/.ag-sessions/`
+- **폴더 내부 구조**:
+  - `history_<session_id>.json`: 특정 배경 세션에서 오고 간 사용자의 Prompt 문장과 모델의 분석 Result(결과)가 JSON 배열 형식으로 누적 기록됩니다.
+  - `active_session.txt`: 현재 해당 워크스페이스에 연결되어 기본적으로 입출력을 주고받는 최신 세션 ID 값을 저장합니다.
+에이전트가 코드를 어떻게 분석하여 답변했는지 상세한 JSON 컨텍스트가 필요할 때 해당 폴더의 내역을 추적(Auditing)하는 것을 권장합니다.

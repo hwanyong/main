@@ -1,11 +1,11 @@
 ---
-name: analyzer
-description: Deeply analyze the codebase while simultaneously gathering latest web context using the Antigravity Bridge Daemon. This skill provides instructions on how to use `agbridge` to interact with the daemon for read-only codebase analysis.
+name: agbridge
+description: Control and interact with the Antigravity Bridge Daemon (`agbridge`) for asynchronous codebase analysis and parallel agent execution. This skill provides instructions on how to use the CLI and manage workspace sessions.
 ---
 
-# Context Analyzer Skill
+# Agbridge Daemon Skill
 
-This skill allows you to run the **Context Analyzer** workflow via the Antigravity Bridge Daemon (`agbridge`). By utilizing the daemon, you can trigger deep codebase analysis while continuing to work, or manage parallel analysis sessions across multiple workspaces.
+This skill allows you to control the **Antigravity Bridge Daemon** (`agbridge`). By utilizing the daemon, you can trigger deep codebase analysis while continuing to work, or manage parallel analysis sessions across multiple workspaces.
 
 ## 🛡️ Constraints & Permissions
 - **Project Files**: **READ-ONLY**. You are strictly FORBIDDEN from editing, creating, or deleting source code files.
@@ -73,4 +73,13 @@ agbridge debug tree --depth 20
 ```
 
 ---
-*For detailed human-readable guides, please refer to: [guide_en.md](guide_en.md) and [guide_ko.md](guide_ko.md)*
+*For detailed human-readable guides, please refer to: [agbridge_guide_en.md](agbridge_guide_en.md) and [agbridge_guide_ko.md](agbridge_guide_ko.md)*
+
+### 5. Tracking Conversation History (`.ag-sessions`)
+If you want to view, track, or manage the local conversation history of your daemon interactions, look for the `.ag-sessions` folder inside your target workspace.
+
+- **Directory Location**: `<TARGET_WORKSPACE_PATH>/.ag-sessions/`
+- **Internal Structure**:
+  - `history_<session_id>.json`: Contains the raw conversation log (user inputs and AI responses) for a specific background session.
+  - `active_session.txt`: Tracks which session ID is currently active for the workspace.
+Tracing these files is highly recommended when you need to audit the agent's analysis context or verify the JSON data generated during deep codebase scans.
