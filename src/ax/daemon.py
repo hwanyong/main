@@ -19,7 +19,8 @@ from ApplicationServices import (
     AXUIElementPerformAction,
     AXUIElementSetAttributeValue,
     kAXMainAttribute,
-    kAXWindowsAttribute
+    kAXWindowsAttribute,
+    AXIsProcessTrustedWithOptions
 )
 
 from src.ax.discovery import find_window_by_workspace, _get_attr
@@ -36,6 +37,18 @@ class InputDaemon:
         self.server = None
 
     def start(self):
+        print("Checking macOS Accessibility permissions...")
+        
+        # 최초 1회만 팝업을 띄워서 사용자에게 권한을 요청합니다.
+        if not AXIsProcessTrustedWithOptions({"AXTrustedCheckOptionPrompt": True}):
+            print("WAITING: Please grant Accessibility permissions to this process in System Settings.")
+            
+            # 이후에는 팝업을 띄우지 않고 조용히 상태만 체크합니다.
+            while not AXIsProcessTrustedWithOptions({"AXTrustedCheckOptionPrompt": False}):
+                time.sleep(3)
+                
+        print("Accessibility permissions verified.")
+
         if os.path.exists(SOCKET_PATH):
             os.remove(SOCKET_PATH)
         
